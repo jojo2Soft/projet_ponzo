@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+      initial-scale=1.0"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./output.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/ddd823af8c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+    <body>
+      <div class="flex h-screen flex-col dark:text-slate-200">
+        <header
+          class="flex items-center border-b-2 border-black px-4 py-2 dark:bg-gray-800"
+        >
+          <i class="fa-solid fa-sack-dollar"></i>
+          <h2 class="ml-2 text-xl font-bold">Ponzo</h2>
+        </header>
+        <div
+          class="flex flex-auto items-center justify-center bg-[url(./assets/images/cryptobg.jpeg)] bg-cover p-2 sm:p-12 dark:bg-[url(./assets/images/cryptobgdark.jpeg)]"
+        >
+          <div
+            class="flex max-w-[1000px] flex-auto flex-col-reverse border-2 border-black bg-white sm:flex-row dark:bg-gray-800"
+          >
+            <div class="flex-auto p-6 sm:p-12">
+              <h1 class="mb-4 text-2xl font-medium">Parlons de votre épargne</h1>
+              <h3 class="mb-4 text-slate-700 sm:text-lg dark:text-slate-200">
+                Nous doublons votre investissement chaque année, et ce, sans aucun
+                risque.
+              </h3>
+              <form action="#" class="grid grid-cols-2 gap-6">
+                <div class="col-span-2 flex flex-col gap-y-1 sm:col-span-1">
+                  <label class="text-sm font-bold" for="firstname">Prénom</label>
+                  <input
+                    class="rounded dark:border-0 dark:bg-slate-900"
+                    id="firstname"
+                    type="text"
+                  />
+                </div>
+                <div class="col-span-2 flex flex-col gap-y-1 sm:col-span-1">
+                  <label class="text-sm font-bold" for="name">Nom</label>
+                  <input
+                    class="rounded dark:border-0 dark:bg-slate-900"
+                    id="name"
+                    type="text"
+                  />
+                </div>
+                <div class="col-span-2 flex flex-col gap-y-1 sm:col-span-1">
+                  <label class="text-sm font-bold" for="email">Email</label>
+                  <input
+                    class="rounded dark:border-0 dark:bg-slate-900"
+                    id="email"
+                    type="email"
+                  />
+                </div>
+                <div class="col-span-2 flex flex-col gap-y-1 sm:col-span-1">
+                  <label class="text-sm font-bold" for="tel">Téléphone</label>
+                  <input
+                    class="rounded dark:border-0 dark:bg-slate-900"
+                    id="tel"
+                    type="tel"
+                  />
+                </div>
+                <div class="col-span-2 flex flex-col gap-y-1">
+                  <label class="mb-4 text-sm font-bold"
+                    >Estimation de votre capital</label
+                  >
+                  <label for="25">
+                    <input
+                      class="mr-2 text-black"
+                      type="radio"
+                      name="capital"
+                      id="25"
+                    />
+                    moins de 25000€
+                  </label>
+                  <label for="25-50">
+                    <input
+                      class="mr-2 text-black"
+                      type="radio"
+                      name="capital"
+                      id="25-50"
+                    />
+                    entre 25000€ et 50000€
+                  </label>
+                  <label for="50">
+                    <input
+                      class="mr-2 text-black"
+                      type="radio"
+                      name="capital"
+                      id="50"
+                    />
+                    plus de 50000€
+                  </label>
+                </div>
+                <div class="col-span-2 flex flex-col gap-y-1">
+                  <label class="text-sm font-bold" for="message">Message</label>
+                  <textarea
+                    cols="30"
+                    class="rounded dark:border-0 dark:bg-slate-900"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <button
+                  class="col-span-2 rounded bg-blue-500 py-2 text-center font-medium text-white shadow-xl transition-colors hover:bg-blue-600 active:bg-blue-700"
+                >
+                  Confiez-nous votre argent !
+                </button>
+                <p class="col-span-2 text-xs">
+                  En soumettant ce formulaire, vous acceptez toutes nos
+                  <a href="#" class="font-bold"> conditions d'utilisation</a>.
+                </p>
+              </form>
+            </div>
+            <div
+              class="basis-32 bg-[url(./assets/images/bitcoin.jpeg)] bg-cover bg-center sm:basis-72"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
